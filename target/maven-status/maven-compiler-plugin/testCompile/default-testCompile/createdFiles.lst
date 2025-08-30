@@ -1,0 +1,5 @@
+AllureReports\allure\definitions\CalculatorSteps.class
+AllureReports\allure\definitions\LoginPageDefinitions.class
+AllureReports\allure\CucumberRunnerTests.class
+AllureReports\allure\definitions\Hooks.class
+AllureReports\allure\definitions\MyCalculatorTest.class
