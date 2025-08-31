@@ -62,7 +62,7 @@ public class MyCalculatorTest {
     public void tc4(){
 
         MySimpleCalculator calculator = new MySimpleCalculator();
-        assertThat(calculator.div2Num(20.0,4.0) ,equalTo(6.0));
+        assertThat(calculator.div2Num(20.0,4.0) ,equalTo(5.0));
     }
     
     
