@@ -1,10 +1,6 @@
-Feature: Addition of two given numbers
- 
-  Background:
+Feature: Calculator
+
+  Scenario: Simple addition
     Given Addition scenario
- 
-  @ValidValues
-  Scenario: Add values
- 
-    When User enters n1 as "5.0" and n2 as "4.0"
-    Then Addition should be calculated successfully.
+    When User enters n1 as 4.0 and n2 as 5.0
+    Then Addition result should be 9.0
