@@ -1,3 +1,4 @@
 "BROKEN","EPIC","FAILED","FEATURE","PASSED","SKIPPED","STORY","UNKNOWN"
 "0","","0","Login to HRM Application","4","0","Login with invalid credentials","0"
+"0","","0","Addition of two given numbers","0","1","Add values","0"
 "0","","0","Login to HRM Application","1","0","Login with valid credentials","0"

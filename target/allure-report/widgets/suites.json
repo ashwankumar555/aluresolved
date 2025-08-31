@@ -1,1 +1,1 @@
-{"total":1,"items":[{"uid":"c6298c44eaa21f0e5b46d039cea593dc","name":"Login to HRM Application","statistic":{"failed":0,"broken":0,"skipped":0,"passed":5,"unknown":0,"total":5}}]}
+{"total":2,"items":[{"uid":"c6298c44eaa21f0e5b46d039cea593dc","name":"Login to HRM Application","statistic":{"failed":0,"broken":0,"skipped":0,"passed":5,"unknown":0,"total":5}},{"uid":"267ed6faeb4a8085cdea7bd943c33fb1","name":"Addition of two given numbers","statistic":{"failed":0,"broken":0,"skipped":1,"passed":0,"unknown":0,"total":1}}]}

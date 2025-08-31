@@ -10,9 +10,7 @@ public class MyCalculatorTest {
 
  
     @Given("Addition scenario")
-    public void addition() {
-
-    }
+    
  
     @When("User enters n1 as {double} and n2 as {double}")
     public double addition(double n1, double n2) {
@@ -24,10 +22,9 @@ public class MyCalculatorTest {
     }
  
     @Then("Addition should be calculated successfully")
-    public void printsum(double sum) {
+    public void getSum(double sum)
+    {
+    	Assert.assertEquals(sum, 9.0);
     	
-    	System.out.println(sum);
-    	
-          }
- 
+    }
 }

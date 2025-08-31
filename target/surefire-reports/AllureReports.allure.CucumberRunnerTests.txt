@@ -1,4 +1,21 @@
 -------------------------------------------------------------------------------
 Test set: AllureReports.allure.CucumberRunnerTests
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 60.62 s -- in AllureReports.allure.CucumberRunnerTests
+Tests run: 6, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 67.28 s <<< FAILURE! -- in AllureReports.allure.CucumberRunnerTests
+Addition of two given numbers.Add values -- Time elapsed: 4.106 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'User enters n1 as "5.0" and n2 as "4.0"' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("User enters n1 as {string} and n2 as {string}")
+public void user_enters_n1_as_and_n2_as(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Addition should be calculated successfully.")
+public void addition_should_be_calculated_successfully() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
